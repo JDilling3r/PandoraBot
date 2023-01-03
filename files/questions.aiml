@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>find career</pattern>
+        <template>Let's find your best fit! I will need to ask you a series of questions to provide the best advisement. 
+        <br /><br />Would you like to continue?
+        <button>
+            <text>Yes</text>
+            <postback>continue</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>no</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>continue</pattern>
+        <template>Fantastic! 
+        <br /> Would you prefer to work in an environment where emphasis is placed on Creativity or Critical Thinking? 
+        <button>
+            <text>Creativity</text>
+            <postback>creativity</postback>
+        </button>
+        <button>
+            <text>Critical Thinking</text>
+            <postback>critical thinking</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>creativity</pattern>
+        <template>Good Choice! 
+        <br /> Are you more knowledgeable in Networking or Programming? 
+        <button>
+            <text>Networking</text>
+            <postback>networking</postback>
+        </button>
+        <button>
+            <text>Programming</text>
+            <postback>programming</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>programming</pattern>
+        <template>Great! 
+        <br /> Would you rather spend more time Developing or Testing? 
+        <button>
+            <text>Developing</text>
+            <postback>softwaredeveloperrole</postback>
+        </button>
+        <button>
+            <text>Testing</text>
+            <postback>cybersecurityprofessionalrole</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>networking</pattern>
+        <template>Great! 
+        <br /> Which word peaks your interest the most: Building or Breaking? 
+        <button>
+            <text>Building</text>
+            <postback>devsecopsengineerrole</postback>
+        </button>
+        <button>
+            <text>Breaking</text>
+            <postback>cybersecurityprofessionalrole</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>critical thinking</pattern>
+        <template>Good Choice!
+        <br /> Do you prefer to focus more on Data or Infrastructure?
+        <button>
+            <text>Data</text>
+            <postback>data</postback>
+        </button>
+        <button>
+            <text>Infrastructure</text>
+            <postback>infrastructure</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>data</pattern>
+        <template>Great!
+        <br /> Does Tool Automation or Tool Management interest you more? 
+        <button>
+            <text>Automation</text>
+            <postback>machinelearningengineerrole</postback>
+        </button>
+        <button>
+            <text>Management</text>
+            <postback>databaseadministratorrole</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>infrastructure</pattern>
+        <template>Great!
+        <br /> Would you rather work on Integrating many applications or Refine one application?
+        <button>
+            <text>Integration</text>
+            <postback>devsecopsengineerrole</postback>
+        </button>
+        <button>
+            <text>Refinement</text>
+            <postback>databaseadministratorrole</postback>
+        </button>
+        </template>
+    </category>
+    
+</aiml>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+  <category>
+    <pattern>*</pattern>
+    <template> Hello! I am a WGU student career advisor bot. If you would like assistance please type "begin." </template>
+  </category>
+
+    <category>
+        <pattern>begin</pattern>
+        <template>Welcome! Are you a computer science student? 
+            <button>
+                <text>Yes</text>
+                <postback>computer science</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>not computer science</postback>
+            </button>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>computer science</pattern>
+        <template> Great! How would you like to continue?  
+            <button>
+                <text>View Top 5 Computing Job Roles</text>
+                <postback>top 5</postback>
+            </button>
+            <button>
+                <text>Find Best Career for Me</text>
+                <postback>find career</postback>
+            </button>
+        </template>
+    </category>
+    
+       <category>
+        <pattern>top 5</pattern>
+        <template> Which job role would you like to learn more about?  
+            <button>
+                <text>Software Developer</text>
+                <postback>software developer</postback>
+            </button>
+            <button>
+                <text>Cyber Security Professional</text>
+                <postback>cyber security professional</postback>
+            </button>
+            <button>
+                <text>DevSecOps Engineer</text>
+                <postback>DevSecOps Engineer</postback>
+            </button>
+            <button>
+                <text>Database Administrator</text>
+                <postback>database administrator</postback>
+            </button>
+            <button>
+                <text>Machine Learning Engineer</text>
+                <postback>machine learning engineer</postback>
+            </button>
+            <button>
+                <text>Back</text>
+                <postback>computer science</postback>
+            </button>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>not computer science</pattern>
+        <template>I apologize, I only have the ability to provide assistance to computer science students. 
+            <button>
+                <text>Back</text>
+                <postback>begin</postback>
+            </button>
+            <button>
+                <text>Exit</text>
+                <postback>exit</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>exit</pattern>
+        <template>Goodbye!</template>
+    </category>
+    
+</aiml>

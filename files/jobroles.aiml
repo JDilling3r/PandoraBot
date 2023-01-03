@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+	<category>
+        <pattern>software developer</pattern>
+        <template>Software developers conceive of, design, and build computer programs. Some develop new applications for mobile or desktop use, while others build underlying operating systems.
+        <br /><br />
+            <link>
+                <text> Click here to learn more about Software Developers.</text>
+                <url>https://www.computerscience.org/careers/software-developer/#:~:text=Software%20developers%20conceive%20of%2C%20design,new%20software%2C%20and%20make%20improvements.</url>
+            </link>
+            <button>
+                <text>Explore other Job Roles</text>
+                <postback>top 5</postback>
+            </button>
+             <button>
+                <text>Tailored Career Advise</text>
+                <postback>find career</postback>
+            </button>
+        </template>
+    </category>
+
+	<category>
+        <pattern>cyber security professional</pattern>
+        <template>Cyber Security Professionals are trained to find weaknesses in databases, networks, hardware, firewalls, and encryption. The number one priority of a cybersecurity professional is to prevent attacks by 'fixing' potential issues before they are exploited by malicious users.
+            <br /><br />           
+            <link>
+                <text> Click here to learn more about Cyber Security Professionals.</text>
+                <url>https://fvi.edu/cyber-security-and-network-technician/cyber-security-career/what-does-a-cyber-security-professonal-do/#:~:text=Cybersecurity%20professionals%20are%20trained%20to,are%20exploited%20by%20malicious%20users.</url>
+            </link>
+            <button>
+                <text>Explore other Job Roles</text>
+                <postback>top 5</postback>
+            </button>
+             <button>
+                <text>Tailored Career Advise</text>
+                <postback>find career</postback>
+            </button>
+        </template>
+    </category>
+        
+    <category>
+        <pattern>devsecops engineer</pattern>
+        <template>DevSecOps Engineers choose and deploy the appropriate automated application security testing tools. It is their responsibility to make users aware of how to make the most of application security features.
+            <br /><br />
+            <link>
+                <text> Click here to learn more about DevSecOps Engineers.</text>
+                <url>https://www.techtarget.com/searchsecurity/tip/What-it-takes-to-be-a-DevSecOps-engineer#:~:text=DevSecOps%20engineers%20choose%20and%20deploy,%2D%2D%20both%20human%20and%20machine.</url>
+            </link>
+            <button>
+                <text>Explore other Job Roles</text>
+                <postback>top 5</postback>
+            </button>
+             <button>
+                <text>Tailored Career Advise</text>
+                <postback>find career</postback>
+            </button>
+        </template>
+    </category>
+        
+    <category>
+        <pattern>database administrator</pattern>
+        <template>Database Administrators use specialized software to store and organize data. The role may include capacity planning, installation, configuration, database design, migration, performance monitoring, security, troubleshooting, as well as backup and data recovery.
+            <br /><br />
+            <link>
+                <text> Click here to learn more about Database Administrators.</text>
+                <url>https://www.ibm.com/docs/en/zos-basic-skills?topic=zos-who-is-database-administrator</url>
+            </link>
+            <button>
+                <text>Explore other Job Roles</text>
+                <postback>top 5</postback>
+            </button>
+             <button>
+                <text>Tailored Career Advise</text>
+                <postback>find career</postback>
+            </button>
+        </template>
+    </category>
+    
+	<category>
+        <pattern>machine learning engineer</pattern>
+        <template>A Machine Learning Engineer (ML engineer) is a person in IT who focuses on researching, building and designing self-running artificial intelligence (AI) systems to automate predictive models.
+            <br /><br />
+            <link>
+                <text> Click here to learn more about Machine Learning Engineers.</text>
+                <url>https://brainstation.io/career-guides/what-is-a-machine-learning-engineer</url>
+            </link>
+            <button>
+                <text>Explore other Job Roles</text>
+                <postback>top 5</postback>
+            </button>
+             <button>
+                <text>Tailored Career Advise</text>
+                <postback>find career</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>devsecopsengineerrole</pattern>
+        <template> Recommended Role: 
+        <br /> DevSecOps Engineer
+        <button>
+                <text>Learn More</text>
+                <postback>DevSecOps Engineer</postback>
+        </button>
+        <button>
+            <text>Exit</text>
+            <postback>exit</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>cybersecurityprofessionalrole</pattern>
+        <template> Recommended Role: 
+        <br /> Cyber Security Professional
+        <button>
+                <text>Learn More</text>
+                <postback>cyber security professional</postback>
+        </button>
+        <button>
+            <text>Exit</text>
+            <postback>exit</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>databaseadministratorrole</pattern>
+        <template> Recommended Role: 
+        <br /> Database Administrator
+        <button>
+                <text>Learn More</text>
+                <postback>database administrator</postback>
+        </button>
+        <button>
+            <text>Exit</text>
+            <postback>exit</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>machinelearningengineerrole</pattern>
+        <template> Recommended Role: 
+        <br /> Machine Learning Engineer
+        <button>
+                <text>Learn More</text>
+                <postback>machine learning engineer</postback>
+        </button>
+        <button>
+            <text>Exit</text>
+            <postback>exit</postback>
+        </button>
+        </template>
+    </category>
+
+    <category>
+        <pattern>softwaredeveloperrole</pattern>
+        <template> Recommended Role: 
+        <br /> Software Developer
+        <button>
+                <text>Learn More</text>
+                <postback>software developer</postback>
+        </button>
+        <button>
+            <text>Exit</text>
+            <postback>exit</postback>
+        </button>
+        </template>
+    </category>
+	
+</aiml>
